@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("ConsoleApp1")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("MyTestProgram")]
+[assembly: AssemblyDescription("NoDescription")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("ConsoleApp1")]
-[assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
+[assembly: AssemblyCompany("localq")]
+[assembly: AssemblyProduct("MyTestProgram")]
+[assembly: AssemblyCopyright("2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
