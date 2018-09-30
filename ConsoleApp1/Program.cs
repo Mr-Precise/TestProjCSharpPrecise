@@ -11,7 +11,8 @@ namespace MyTestProgram
         {
             int exampleB = 10;
             float newfloat1 = 10.2F;
-            Console.Title = "New Program";
+            string titlestr = "New Program";
+            Console.Title = ($"Title: {titlestr}");
             Console.BackgroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine("Hi, this is a new test program.");
             Console.WriteLine(exampleB + newfloat1);
