@@ -9,13 +9,19 @@ namespace MyTestProgram
     {
         static void Main(string[] args)
         {
-            int exampleB = 10;
+            Random Rnd1 = new Random();
+            float exampleRnd1 = Rnd1.Next(0, 100);
             float newfloat1 = 10.2F;
             string titlestr = "New Program";
             Console.Title = ($"Title: {titlestr}");
             Console.BackgroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine("Hi, this is a new test program.");
-            Console.WriteLine(exampleB + newfloat1);
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("*****************************************");
+            Console.WriteLine("*****Hi, this is a new test program.*****");
+            Console.WriteLine("*****************************************");
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(exampleRnd1 + newfloat1);
             Console.ReadKey();
         }
     }
